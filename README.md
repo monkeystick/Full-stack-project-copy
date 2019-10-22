@@ -8,3 +8,7 @@ After making sure you have Python installed on your local machine, you can follo
 now to run the server -> run this command in the project folder from the terminal: 
 * `python -m SimpleHTTPServer 8000`
 * now go to this link: `localhost:8000` or `127.0.0.1:8000` 
+
+# Front end language is React Bootstrap 
+https://react-bootstrap.github.io/
+Everything we can use from here. I recommend looking into this site very well becuase it will help us build our website.
