@@ -10,5 +10,5 @@ now to run the server -> run this command in the project folder from the termina
 * now go to this link: `localhost:8000` or `127.0.0.1:8000` 
 
 # Front end language is React Bootstrap 
-https://react-bootstrap.github.io/
-Everything we can use from here. I recommend looking into this site very well becuase it will help us build our website.
+https://react-bootstrap.github.io/ .
+Everything we need to use is here. I recommend looking into this site very well becuase it will help us build our website.
