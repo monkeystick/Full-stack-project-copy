@@ -1,3 +1,4 @@
+
 # Full-stack-project
 We will be creating the Western AI club website from scratch 
 
@@ -12,3 +13,6 @@ now to run the server -> run this command in the project folder from the termina
 # Front end language is React Bootstrap 
 https://react-bootstrap.github.io/ .
 Everything we need to use is here. I recommend looking into this site very well becuase it will help us build our website.
+
+* Styling using sass -->https://sass-lang.com/documentation
+* Gulp is for compiling sass files -->https://www.npmjs.com/package/gulp
