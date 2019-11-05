@@ -16,3 +16,6 @@ Everything we need to use is here. I recommend looking into this site very well 
 
 * Styling using sass -->https://sass-lang.com/documentation
 * Gulp is for compiling sass files -->https://www.npmjs.com/package/gulp
+
+# After Cloning the repo
+* Run `npm install` to get nodes installed locally. I only have the react and some of the front end tools, but we will add on it soon. 
