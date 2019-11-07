@@ -88,6 +88,7 @@ class App extends React.Component {
       </div>
       </Col>
       </Row>
+      
       <Row>
         <Col>
     <h5>Why Do You Want To Join Western AI?</h5>
@@ -104,7 +105,6 @@ class App extends React.Component {
       </div>
       </Col>
       <Col>
-
       <h5>Familiarity With AI</h5>
       <div class = "experience">
       <select onChange={this.handleFam} required>
