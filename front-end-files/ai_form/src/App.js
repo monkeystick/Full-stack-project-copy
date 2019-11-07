@@ -63,22 +63,23 @@ class App extends React.Component {
     <Row>
       <Col>
     <h5>Enter Your Email Address</h5>
-    <input type="text" placeholder="Email Address" email={this.state.email} onChange={this.handleEmail} required/>
+    <input type="email" placeholder="Email Address" email={this.state.email} onChange={this.handleEmail} required/>
       </Col>
       <Col>
     <h5>Enter Your Full Name</h5>
-    <input type="text" placeholder="Full Name" name={this.state.name} onChange={this.handleName} required/>
+    <input type="text" placeholder="Full Name" name={this.state.name} onChange={this.handleName} required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
       </Col>
     </Row>
     <Row>
       <Col>
     <h5>Enter Your Program</h5>
-    <input type="text" placeholder="Program" program ={this.state.program} onChange={this.handleProgram}  required/>
+    <input type="text" placeholder="Program" program ={this.state.program} onChange={this.handleProgram}  required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
     </Col>
     <Col>
     <h5>Enter Your Year</h5>
       <div class = "year">
-      <select onChange={this.handleYear}>
+      <select onChange={this.handleYear} required>
+        <option value="">Select Here</option>
         <option value="First Year">First Year</option>  
         <option value="Second Year">Second Year</option>  
         <option value="Third Year">Third Year</option>  
@@ -106,7 +107,8 @@ class App extends React.Component {
 
       <h5>Familiarity With AI</h5>
       <div class = "experience">
-      <select onChange={this.handleFam}>
+      <select onChange={this.handleFam} required>
+        <option value="">Select Here</option>
         <option value = "Never Heard of AI">Never Heard of AI</option>  
         <option value = "Know of AI">Know of AI</option>  
         <option value = "Some Experience with AI">Some Experience with AI</option>  
