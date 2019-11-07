@@ -1,11 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Dropdown,DropdownButton,Row, Column, Button, Form, FormControl, FormGroup, Checkbox, Radio, Col} from 'react-bootstrap';
 import React from 'react';
-import header from './header.PNG';
-import footer from './footer.PNG';
-import './App.css';
+import './SignUp.css';
 
-class App extends React.Component {
+class SignUp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {email: '',name: '',program: '',year: '',familarity: ''};
@@ -47,16 +45,15 @@ class App extends React.Component {
   return (
     <div className="App">
 
-      <div class = "header">
-        <img src = {header} width = "100%" height = "75%"/>
-      </div>
-      
-    <div class = "overview">
-    <h6>Interested in taking that first step into the world of AI? Club members get access to exclusive AI educationals and project teams!</h6>
-      </div>
-        
-      
-          
+        <div class="topnav" id="myTopnav">
+          <div class="logo">WESTERN AI</div>
+          <a href="apply">Apply Now</a>
+          <a href="signup">Sign Up</a>
+          <a href="sponsors">Our Sponsors</a>
+          <a href="initiatives">Our Initiatives</a>
+          <a href="home" class="active">Home</a>
+        </div>    
+
     <Form onSubmit = {this.handleSubmit}>
   <div class="container">
       <h2>Sign Up</h2>
@@ -125,11 +122,9 @@ class App extends React.Component {
   </div>
   </Form>
 
-
-
     </div>
   );
 }
 }
 
-export default App;
+export default SignUp;
