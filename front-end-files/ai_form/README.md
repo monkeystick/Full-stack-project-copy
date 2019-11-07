@@ -2,6 +2,8 @@
 
 ## Instructions to Run
 
+#### Change current directory to the AI_Form folder:
+
 ### `cd ai_form`
 
 #### In the project directory, run:
