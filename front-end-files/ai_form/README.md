@@ -8,6 +8,8 @@
 
 #### In the project directory, run:
 
+### `npm install` to get all the nodes installed locally  
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
