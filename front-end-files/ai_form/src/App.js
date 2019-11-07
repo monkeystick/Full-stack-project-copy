@@ -51,34 +51,29 @@ class App extends React.Component {
         <img src = {header} width = "100%" height = "75%"/>
       </div>
       
-      <div class = "overview">
-    <h6>This is the sign up form for those interested in general membership and those interested in project teams</h6>
-    <h6>Feel free to reach out to any of the execs for more info:</h6>
-      <h6>Jason Chin | VP Projects | jason.rob.chin@gmail.com</h6>
-      <h6>Spencer Dale | President | sdale26@uwo.ca</h6>
+    <div class = "overview">
+    <h6>Interested in taking that first step into the world of AI? Club members get access to exclusive AI educationals and project teams!</h6>
       </div>
-
-      <div class = "linktoprojects">
-    <h6>After you sign up, if you wish to join a project team please select Apply Now above.</h6>
-      </div>
+        
+      
+          
     <Form onSubmit = {this.handleSubmit}>
   <div class="container">
-
       <h2>Sign Up</h2>
     <Row>
       <Col>
     <h5>Enter Your Email Address</h5>
-    <input type="text" placeholder="What is your email?" email={this.state.email} onChange={this.handleEmail} required/>
+    <input type="text" placeholder="Email Address" email={this.state.email} onChange={this.handleEmail} required/>
       </Col>
       <Col>
     <h5>Enter Your Full Name</h5>
-    <input type="text" placeholder="What is your full name?" name={this.state.name} onChange={this.handleName} required/>
+    <input type="text" placeholder="Full Name" name={this.state.name} onChange={this.handleName} required/>
       </Col>
     </Row>
     <Row>
       <Col>
     <h5>Enter Your Program</h5>
-    <input type="text" placeholder="What program are you in?" program ={this.state.program} onChange={this.handleProgram}  required/>
+    <input type="text" placeholder="Program" program ={this.state.program} onChange={this.handleProgram}  required/>
     </Col>
     <Col>
     <h5>Enter Your Year</h5>
@@ -104,7 +99,7 @@ class App extends React.Component {
         Project Teams
       </div>
       <div>
-        <input type="text" placeholder = "Please specify any other reasons you want to join Western AI."/>
+        <input type="text" placeholder = "Other"/>
       </div>
       </Col>
       <Col>
