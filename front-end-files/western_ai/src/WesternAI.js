@@ -23,8 +23,9 @@ class WesternAI extends React.Component {
         </div> 
     <Router>
       <Switch>
-          <Route path='/signup' component={SignUp}/>
+          <Route path='/' exact component={Home}/>
           <Route path='/home' component={Home}/>
+          <Route path='/signup' component={SignUp}/>
           <Route path='/initiatives' component={Initiatives}/>
           <Route path='/sponsors' component={Sponsors}/>
           <Route path='/apply' component={Apply}/>
