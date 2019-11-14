@@ -1,5 +1,3 @@
-
-
 ## Instructions to Run
 
 #### Change current directory to the AI_Form folder:

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Dropdown,DropdownButton,Row, Column, Button, Form, FormControl, FormGroup, Checkbox, Radio, Col} from 'react-bootstrap';
+import {Row, Form,  Col} from 'react-bootstrap';
 import React from 'react';
 import './SignUp.css';
 
@@ -44,16 +44,6 @@ class SignUp extends React.Component {
   render(){
   return (
     <div className="App">
-
-        <div class="topnav" id="myTopnav">
-          <div class="logo">WESTERN AI</div>
-          <a href="apply">Apply Now</a>
-          <a href="signup">Sign Up</a>
-          <a href="sponsors">Our Sponsors</a>
-          <a href="initiatives">Our Initiatives</a>
-          <a href="home" class="active">Home</a>
-        </div>    
-
     <Form onSubmit = {this.handleSubmit}>
   <div class="container">
       <h2>Sign Up</h2>
