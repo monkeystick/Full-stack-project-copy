@@ -6,6 +6,7 @@ import Home from '../src/Home/Home';
 import Initiatives from '../src/OurInitiatives/Initiatives';
 import Sponsors from '../src/OurSponsors/Sponsors';
 import Apply from '../src/ApplyNow/ApplyNow';
+import Involved from '../src/GetInvolved/GetInvolved'
 import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 import {
   CSSTransition,
@@ -16,8 +17,8 @@ class WesternAI extends React.Component {
   
   render(){
   return (
+    
     <div className="App">
- 
     <Router>
     <div class="topnav" id="myTopnav">
           <div class="logo">WESTERN AI</div>
@@ -25,6 +26,7 @@ class WesternAI extends React.Component {
           <NavLink to="/apply" activeClassName="active">Apply Now</NavLink>
           <NavLink exact to="/signup" activeClassName="active">Sign Up</NavLink>
           <NavLink to="/sponsors" activeClassName="active">Sponsors</NavLink>
+          <NavLink exact to="/getinvolved" activeClassName="active">Get Involved</NavLink>
           <NavLink exact to="/initiatives" activeClassName="active">Initiatives</NavLink>
           <NavLink exact to="/" activeClassName="active">Home</NavLink>
           
@@ -42,6 +44,7 @@ class WesternAI extends React.Component {
           <Route path='/initiatives' component={Initiatives}/>
           <Route path='/sponsors' component={Sponsors}/>
           <Route path='/apply' component={Apply}/>
+          <Route path='/getinvolved' component={Involved}/>
       </Switch>
 
       </CSSTransition>

@@ -43,26 +43,33 @@ class SignUp extends React.Component {
   }
   render(){
   return (
-    <div className="App">
+    <div className="flex-container">
     <Form onSubmit = {this.handleSubmit}>
   <div class="container">
       <h2>Sign Up</h2>
-    <Row>
+    
       <Col>
+      <div>
     <h5>Enter Your Email Address</h5>
     <input type="email" placeholder="Email Address" email={this.state.email} onChange={this.handleEmail} required/>
+    </div>
       </Col>
       <Col>
+      <div>
     <h5>Enter Your Full Name</h5>
     <input type="text" placeholder="Full Name" name={this.state.name} onChange={this.handleName} required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
+    </div>
       </Col>
-    </Row>
-    <Row>
+    
+    
       <Col>
+      <div>
     <h5>Enter Your Program</h5>
     <input type="text" placeholder="Program" program ={this.state.program} onChange={this.handleProgram}  required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
+    </div>
     </Col>
     <Col>
+    <div>
     <h5>Enter Your Year</h5>
       <div class = "year">
       <select onChange={this.handleYear} required>
@@ -73,11 +80,13 @@ class SignUp extends React.Component {
         <option value="Fourth Year">Fourth Year</option>
       </select>
       </div>
+      </div>
       </Col>
-      </Row>
       
-      <Row>
+      
+      
         <Col>
+        <div>
     <h5>Why Do You Want To Join Western AI?</h5>
     <div>
         <input type="checkbox" value="Educationals"/>
@@ -90,8 +99,10 @@ class SignUp extends React.Component {
       <div>
         <input type="text" placeholder = "Other"/>
       </div>
+      </div>
       </Col>
       <Col>
+      <div>
       <h5>Familiarity With AI</h5>
       <div class = "experience">
       <select onChange={this.handleFam} required>
@@ -102,8 +113,9 @@ class SignUp extends React.Component {
         <option value = "Well Experienced with AI">Well Experienced with AI</option>
       </select>
       </div>
+      </div>
       </Col>
-      </Row>
+      
 
       <div class = "buttonLoc">
     <button type="submit">Submit</button>

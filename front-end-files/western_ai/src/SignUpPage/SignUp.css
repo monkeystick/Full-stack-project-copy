@@ -28,7 +28,10 @@ button {
   top:90%;
   left:70%;
 }
-
+.flex-container{
+  display:flex;
+  flex-direction: column;
+}
 button:hover {
   opacity: 0.8;
 }
