@@ -3,11 +3,11 @@ import React from 'react';
 import './ApplyNow.css';
 
 class ApplyNow extends React.Component {
-
+  
   render(){
   return (
     <div>
-<h2>APPLY NOW PAGE</h2>
+<h1>APPLY NOW PAGE</h1>
     </div>
   );
 }
