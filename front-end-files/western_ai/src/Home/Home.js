@@ -1,13 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import '../Assets/css/Home.css';
+import './Home.css';
 
 class Home extends React.Component {
-
+  
   render(){
   return (
     <div>
-<h2>HOME PAGE</h2>
+<h1>HOME PAGE</h1>
     </div>
   );
 }
