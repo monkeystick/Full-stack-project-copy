@@ -30,5 +30,7 @@ The page will reload if you make edits.
 
 #### go to terminal and run
 ###  `gulp`
+Change css import line to : '../Assets/css/YOURFILENAME.css' <br/>
 Go to src/Assets/scss/... to write sass files <br/>
 Convert to css files stored in src/Assets/css/... by saving your scss
+
