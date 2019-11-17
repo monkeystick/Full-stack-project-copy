@@ -29,6 +29,6 @@ The page will reload if you make edits.
 ### USE GULP
 
 #### go to terminal and run
-###`gulp`
+####`gulp`
 Go to src/Assets/scss/... to write sass files <br/>
 Convert to css files stored in src/Assets/css/... by saving
