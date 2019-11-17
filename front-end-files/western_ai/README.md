@@ -19,7 +19,7 @@ The page will reload if you make edits.
 
 ### SET UP GULP
 
-####Install the gulp command line utility
+#### Install the gulp command line utility
 ### `npm install --global gulp-cli`
 
 #### Navigate to western_ai and install devDependencies on your local machine
