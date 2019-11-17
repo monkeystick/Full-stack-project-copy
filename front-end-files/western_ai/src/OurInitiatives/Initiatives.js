@@ -1,13 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import '../Assets/css/Initiatives.css';
+import './Initiatives.css';
 
 class Initiatives extends React.Component {
-
+  
   render(){
   return (
     <div>
-<h2>INITIATIVES PAGE</h2>
+<h1>INITIATIVES PAGE</h1>
     </div>
   );
 }
