@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import '../Assets/css/ApplyNow.css';
+import './ApplyNow.css';
 
 class ApplyNow extends React.Component {
 
