@@ -1,15 +1,17 @@
 h2 {
   white-space: pre;
-  padding-top: 150px;
-  padding-left: 40px;
+  padding-top: 30px;
+  padding-left: 10px;
   color: #525252;
   font-size: 40px; }
 
 .logos {
   position: absolute;
-  left: calc(50% - 400px);
+  left: 17%;
+  top:30%;
   margin: 0; }
 
+ 
 .footer {
   /*  position: relative;
   left: 0;

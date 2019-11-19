@@ -19,6 +19,8 @@ class Sponsors extends React.Component {
   return (
     <div className = "App">
     <h2> Our Sponsors</h2>
+    
+    
     <div className = "logos">
     <img src = {logo1} alt= "Digital Echidna"/>
     <img src = {logo3} alt= "wrnch"/>

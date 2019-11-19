@@ -43,9 +43,10 @@ class SignUp extends React.Component {
   }
   render(){
   return (
-    <div className="App">
+    <div className="SignUp">
     <Form onSubmit = {this.handleSubmit}>
   <div class="container">
+    <div class = "SignUpTitle"></div>
       <h2>Sign Up</h2>
     <Row>
       <Col>
