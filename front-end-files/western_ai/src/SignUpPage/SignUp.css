@@ -25,8 +25,8 @@ button {
   border-radius: 25px;
   cursor: pointer;
   width: 25%;
-  top:90%;
-  left:70%;
+  top:105%;
+  left:60%;
 }
 .flex-container{
   display:flex;

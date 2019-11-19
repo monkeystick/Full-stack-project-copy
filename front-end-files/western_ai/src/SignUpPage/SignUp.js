@@ -49,7 +49,7 @@ class SignUp extends React.Component {
     <div class = "SignUpTitle">
       <h2>Sign Up</h2>
       </div>
-    <Row>
+    
       <Col>
     <h5>Enter Your Email Address</h5>
     <input type="email" placeholder="Email Address" email={this.state.email} onChange={this.handleEmail} required/>
@@ -58,8 +58,8 @@ class SignUp extends React.Component {
     <h5>Enter Your Full Name</h5>
     <input type="text" placeholder="Full Name" name={this.state.name} onChange={this.handleName} required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
       </Col>
-    </Row>
-    <Row>
+    
+    
       <Col>
     <h5>Enter Your Program</h5>
     <input type="text" placeholder="Program" program ={this.state.program} onChange={this.handleProgram}  required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
@@ -76,9 +76,9 @@ class SignUp extends React.Component {
       </select>
       </div>
       </Col>
-      </Row>
+    
       
-      <Row>
+      
         <Col>
     <h5>Why Do You Want To Join Western AI?</h5>
     <div>
@@ -105,7 +105,7 @@ class SignUp extends React.Component {
       </select>
       </div>
       </Col>
-      </Row>
+    
 
       <div class = "buttonLoc">
     <button type="submit">Submit</button>
