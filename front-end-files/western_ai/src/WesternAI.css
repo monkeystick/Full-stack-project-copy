@@ -15,14 +15,14 @@
   color: rgb(255, 255, 255);
 }
 .topnav {
-  background-color:rgb(80, 126, 252);
+  background-color:rgb(255, 255, 255);
   overflow: hidden;
 }
 
 .topnav a {
   float: right;
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(17, 86, 212);
   text-align: right;
   padding: 25px 20px;
   text-decoration: none;
@@ -32,7 +32,7 @@
 .logo{
   float:left;
   display:block;
-  color:rgb(245, 245, 245);
+  color:rgb(17, 86, 212);
   text-align:center;
   padding: 25px 16px;
   font-family:"Courier New";
