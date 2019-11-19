@@ -56,12 +56,15 @@ img.avatar {
 .container {
   padding: 5px;
   position:absolute;
-  left:1%;
+  left:3%;
   top:15%;
   width:100%;
   background-color:white;
 }
-
+.SignUpTitle{
+  position:relative;
+  left:-3%;
+}
 span.psw {
   float: right;
   padding-top: 16px;
