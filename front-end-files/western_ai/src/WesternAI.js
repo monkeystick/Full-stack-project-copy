@@ -11,6 +11,7 @@ import {
   CSSTransition,
   TransitionGroup,
 } from 'react-transition-group';
+import logo from './Components/images/WLogo.png';
 
 class WesternAI extends React.Component {
   
@@ -20,8 +21,7 @@ class WesternAI extends React.Component {
  
     <Router>
     <div class="topnav" id="myTopnav">
-          <div class="logo">WESTERN AI</div>
-        
+          <img class="logo" src={logo} width="125" height="100"/>
           <NavLink to="/apply" activeClassName="active">Apply Now</NavLink>
           <NavLink exact to="/signup" activeClassName="active">Sign Up</NavLink>
           <NavLink to="/sponsors" activeClassName="active">Sponsors</NavLink>

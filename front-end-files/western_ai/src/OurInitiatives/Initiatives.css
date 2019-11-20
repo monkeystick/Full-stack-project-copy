@@ -1,0 +1,58 @@
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  padding-top: 8vw;
+}
+
+.box1 {
+  width: 40%;
+  color: #4a4a4a;
+}
+
+.box2 {
+  width: 70%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #222;
+}
+
+.container2 {
+  font-weight: 500;
+  padding-left: 22vw;
+  padding-right: 22vw;
+  padding-top: 5vw;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+.box3 {
+  padding-bottom: 3vw;
+  color: #222;
+}
+
+.box4 {
+  color: #6381e3;
+}
+
+.box5 {
+  padding-bottom: 3vw;
+  color: #222;
+}
+
+.box6 {
+  color: #6381e3;
+}
+
+.box7 {
+  padding-bottom: 5vw;
+  color: #222;
+}
+
+.box8 {
+  color: #6381e3;
+}
