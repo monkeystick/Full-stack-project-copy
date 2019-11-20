@@ -18,7 +18,17 @@ class WesternAI extends React.Component {
   render(){
   return (
     <div className="App">
- 
+       <div class="dropdown">
+         <button class="dropbtn"></button>
+  <div class="dropdown-content">
+    <a>Select a Page</a>
+  <a href="/">Home</a>
+    <a href="/initiatives">Initiatives</a>
+    <a href="/sponsors">Sponsors</a>
+    <a href="/signup">Sign Up</a>
+    <a href="/apply">Apply Now</a>
+  </div>
+  </div>  
     <Router>
     <div class="topnav" id="myTopnav">
           <img class="logo" src={logo} width="125" height="100"/>
@@ -27,6 +37,7 @@ class WesternAI extends React.Component {
           <NavLink to="/sponsors" activeClassName="active">Sponsors</NavLink>
           <NavLink exact to="/initiatives" activeClassName="active">Initiatives</NavLink>
           <NavLink exact to="/" activeClassName="active">Home</NavLink>
+
           
         </div> 
     <Route render={({location}) => (
