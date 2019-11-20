@@ -51,21 +51,21 @@ class SignUp extends React.Component {
       </div>
     
       <Col>
-    <h5>Enter Your Email Address</h5>
+    <h5 class="h5-signup">Enter Your Email Address</h5>
     <input type="email" placeholder="Email Address" email={this.state.email} onChange={this.handleEmail} required/>
       </Col>
       <Col>
-    <h5>Enter Your Full Name</h5>
+    <h5 class="h5-signup">Enter Your Full Name</h5 >
     <input type="text" placeholder="Full Name" name={this.state.name} onChange={this.handleName} required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
       </Col>
     
     
       <Col>
-    <h5>Enter Your Program</h5>
+    <h5 class="h5-signup">Enter Your Program</h5 >
     <input type="text" placeholder="Program" program ={this.state.program} onChange={this.handleProgram}  required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
     </Col>
     <Col>
-    <h5>Enter Your Year</h5>
+    <h5 class="h5-signup">Enter Your Year</h5 >
       <div class = "year">
       <select onChange={this.handleYear} required>
         <option value="">Select Here</option>
@@ -80,7 +80,7 @@ class SignUp extends React.Component {
       
       
         <Col>
-    <h5>Why Do You Want To Join Western AI?</h5>
+    <h5 class="h5-signup">Why Do You Want To Join Western AI?</h5>
     <div>
         <input type="checkbox" value="Educationals"/>
         Educationals
@@ -94,7 +94,7 @@ class SignUp extends React.Component {
       </div>
       </Col>
       <Col>
-      <h5>Familiarity With AI</h5>
+      <h5 class="h5-signup">Familiarity With AI</h5 >
       <div class = "experience">
       <select onChange={this.handleFam} required>
         <option value="">Select Here</option>

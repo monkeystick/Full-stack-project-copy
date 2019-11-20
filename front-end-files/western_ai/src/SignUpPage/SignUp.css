@@ -6,9 +6,11 @@ input[type=text],input[type=email] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-h5{
+.h5-signup{
   color: rgb(0, 110, 255);
   padding:12px 0px;
+  font-size:20px;
+  text-align:left;
 }
 
 h3{
