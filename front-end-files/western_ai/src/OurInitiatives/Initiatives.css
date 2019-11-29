@@ -3,16 +3,18 @@
   justify-content: space-around;
   padding-left: 13vw;
   padding-right: 13vw;
-  padding-top: 8vw;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 .box1 {
-  width: 40%;
+  padding-right: 5vw;
   color: #4a4a4a;
 }
 
 .box2 {
   width: 70%;
+  padding-left: 5vw;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.8em;
@@ -23,8 +25,7 @@
   font-weight: 500;
   padding-left: 22vw;
   padding-right: 22vw;
-  padding-top: 5vw;
-
+  padding-bottom: 10vw;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.8em;
@@ -49,10 +50,29 @@
 }
 
 .box7 {
-  padding-bottom: 5vw;
   color: #222;
 }
 
 .box8 {
   color: #6381e3;
+}
+
+@media screen and (orientation:portrait){
+  .container1{
+    display: inline-block;
+    padding-left: 5vw;  
+    padding-right: 5vw;
+  } 
+  .box1{
+    padding-right: 0vw;
+  }
+  .box2{
+    padding-top: 5vw;
+    padding-left: 0vw;
+    width: 100%;
+  }
+  .container2{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
 }
