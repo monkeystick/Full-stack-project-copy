@@ -12,26 +12,28 @@ import {
   TransitionGroup,
 } from 'react-transition-group';
 import logo from './Components/images/WLogo.png';
-
+import {Nav,Navbar,Dropdown} from 'react-bootstrap'
 class WesternAI extends React.Component {
   
   render(){
   return (
     <div className="App">
-       <div class="dropdown">
-         <button class="dropbtn"></button>
-  <div class="dropdown-content">
-    <a>Select a Page</a>
-  <a href="/">Home</a>
-    <a href="/initiatives">Initiatives</a>
-    <a href="/sponsors">Sponsors</a>
-    <a href="/signup">Sign Up</a>
-    <a href="/apply">Apply Now</a>
+      <div class="mobilenav">
+      <Navbar bg="primary" variant="dark">
+    <Navbar.Brand>Western AI</Navbar.Brand>
+
+    <Nav className="mr-auto">
+      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link href="/initiatives">Initiatives</Nav.Link>
+      <Nav.Link href="/sponsors">Sponsors</Nav.Link>
+      <Nav.Link href="/signup">Sign Up</Nav.Link>
+      <Nav.Link href="/apply">Apply Now</Nav.Link>
+    </Nav>
+  </Navbar>
   </div>
-  </div>  
     <Router>
     <div class="topnav" id="myTopnav">
-          <img class="logo" src={logo} width="125" height="100"/>
+          <img class="logo" src={logo} width="150" height="100"/>
           <NavLink to="/apply" activeClassName="active">Apply Now</NavLink>
           <NavLink exact to="/signup" activeClassName="active">Sign Up</NavLink>
           <NavLink to="/sponsors" activeClassName="active">Sponsors</NavLink>
