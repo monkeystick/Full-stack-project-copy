@@ -12,24 +12,32 @@ import {
   TransitionGroup,
 } from 'react-transition-group';
 import logo from './Components/images/WLogo.png';
-import {Nav,Navbar,Dropdown} from 'react-bootstrap'
+import {Nav,Navbar,NavDropdown,Dropdown,DropdownButton,Row,Col} from 'react-bootstrap'
 class WesternAI extends React.Component {
   
   render(){
   return (
     <div className="App">
       <div class="mobilenav">
-      <Navbar bg="primary" variant="dark">
-    <Navbar.Brand>Western AI</Navbar.Brand>
+        <h4 class="h4-mobile">Western AI</h4>
+        <div class ="mobilemenu">
+      <Dropdown>
+        <div class="a">
+  <Dropdown.Toggle variant="" id="dropdown-basic">
+   <h5 class="h5-mobile">Menu</h5>
+  </Dropdown.Toggle>
+  </div>
 
-    <Nav className="mr-auto">
-      <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/initiatives">Initiatives</Nav.Link>
-      <Nav.Link href="/sponsors">Sponsors</Nav.Link>
-      <Nav.Link href="/signup">Sign Up</Nav.Link>
-      <Nav.Link href="/apply">Apply Now</Nav.Link>
-    </Nav>
-  </Navbar>
+  <Dropdown.Menu>
+    <Dropdown.Item href="/">Home</Dropdown.Item>
+    <Dropdown.Item href="/initiatives">Initiatives</Dropdown.Item>
+    <Dropdown.Item href="/sponsors">Sponsors</Dropdown.Item>
+    <Dropdown.Item href="/signup">Sign Up</Dropdown.Item>
+    <Dropdown.Item href="/apply">Apply Now</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
+
+</div>
   </div>
     <Router>
     <div class="topnav" id="myTopnav">

@@ -12,18 +12,21 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0px 56.038px 0px 56.0781px;
+  position:relative;
 }
 
 .flex-container-2{
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(99, 129, 227);
+  position:relative;
 }
 .name{
   padding: 0px 56.038px 0px 56.0781px;
 }
 
-h1{
+.h1-homepage-title{
+  text-align:center;
   color: rgb(74,74,74);
   font-family: sofia-pro, sans-serif;
   font-size: 120px;
@@ -34,9 +37,34 @@ h1{
   white-space: pre-wrap;
 }
 
-h2{
+.h1-homepage-goals{
+  text-align:center;
+  color: rgb(74,74,74);
+  font-family: sofia-pro, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: normal;
+  margin-bottom: 15px 0px 21.44px 0px;
+  white-space: pre-wrap;
+  padding:25px;
+}
+.h1-homepage{
+  text-align:left;
+  color: rgb(74,74,74);
+  font-family: sofia-pro, sans-serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: normal;
+  margin-bottom: 15px 0px 21.44px 0px;
+  white-space: pre-wrap;
+}
+
+.h2-homepage{
+  text-align:center;
   color: rgb(99, 129, 227);
-  font-size: 15.25px;
+  font-size: 14px;
   font-family: sofia-pro, sans-serif;
   font-weight: 600;
   letter-spacing: 1.525px;
@@ -47,7 +75,8 @@ h2{
 
 }
 
-h3{
+.h3-homepage{
+  text-align:left;
   color: rgb(74,74,74);
   font-family: sofia-pro, sans-serif;
   font-size: 40px;
@@ -58,29 +87,29 @@ h3{
   white-space: pre-wrap;
 }
 
-h4{
+.h4-homepage{
 
 }
 
-h5{
-  text-align: center;
+.h7-homepage{
   color: rgb(74,74,74);
   font-family: sofia-pro, sans-serif;
-  font-size: 120px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 900;
   letter-spacing: normal;
-  margin-bottom: 0px 0px 21.44px 0px;
-  white-space: pre-wrap;
+  text-align:left;
 }
 p{
   color: rgb(34,34,34);
+  text-align:center;
   font-family: sofia-pro, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32.4px;
   overflow-wrap: break-word;
   white-space: pre-wrap;
+  width:100%;
 }
 
 p2{
@@ -91,3 +120,27 @@ p2{
   white-space: pre-wrap;
 }
 
+.goals{
+  padding-left:15%;
+}
+
+.name{
+  padding:45px;
+}
+
+@media screen and (max-width: 600px) {
+  .h1-homepage-title{
+    font-size:65px;
+  }
+  .goals{
+    padding-right:45px;
+    padding-left:0;
+  }
+  .h1-homepage-goals{
+    padding-left:5px;
+  }
+  .goals-desc{
+    padding-left:0px;
+    padding-right:15px;
+  }
+}
