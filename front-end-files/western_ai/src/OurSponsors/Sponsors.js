@@ -18,7 +18,7 @@ class Sponsors extends React.Component {
   render(){
   return (
     <div className = "App">
-    <h2> Our Sponsors</h2>
+    <h2 class="h2-sponsors"> Our Sponsors</h2>
     
     
     <div className = "logos">

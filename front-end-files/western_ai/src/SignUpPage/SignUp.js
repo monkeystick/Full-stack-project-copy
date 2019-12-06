@@ -47,7 +47,7 @@ class SignUp extends React.Component {
     <Form onSubmit = {this.handleSubmit}>
   <div class="container">
     <div class = "SignUpTitle">
-      <h2>Sign Up</h2>
+      <h2 class="h2-signup">Sign Up</h2>
       </div>
     
       <Col>

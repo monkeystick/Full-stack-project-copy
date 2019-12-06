@@ -83,3 +83,9 @@ span.psw {
 .year{
   width:0%;
 }
+
+@media screen and (max-width: 600px) {
+ .h2-signup{
+   padding-left:25px;
+ }
+}
