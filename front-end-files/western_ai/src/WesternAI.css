@@ -108,8 +108,76 @@ margin:0;
     transition: opacity 150ms linear;
 }
 
+.line{
+  width:30px;
+  height: 5px;
+  background-color:white;
+  margin: 5px;
+}
+.nav-links{
+  position:absolute;
+  right: 0%;
+  height:800px;
+  width:60%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  background-color:rgb(68, 130, 245);
+  padding:10px;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+}
+.burger{
+  cursor:pointer;
+}
+.nav-links a{
+  color:white;
+  overflow:hidden;
+  margin:35px;
+  text-decoration:none;
+ 
+  
+}
+a{
+  margin:30px;
+}
+.mobileslide{
+  position:absolute;
+  z-index:1000;
+  display:flex;
+  flex-direction:column;
+  transition: opacity .25s ease-in-out;
+  opacity:0;
+  text-align:center;
+  color:white;
+  background-color:rgb(68, 130, 245);
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:10px;
+  letter-spacing: 2px;
+  right:0px;
+}
+.mobilemenu{
+  background-color:rgb(68, 130, 245);
+  position:absolute;
+  margin-left:70px;
+  padding:0px;
+  right:10px;
+  
+}
+
+.icon{
+  background-color:white;
+  width: 35px;
+  height: 5px;
+  margin: 7px 0;
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
+  .App{
+    overflow-x:hidden;
+  }
  .mobilenav{
    display:block;
    position:relative;
@@ -120,6 +188,33 @@ margin:0;
 
  .topnav{
    display:none;
+ }
+ .nav-links a{
+   opacity:1;
+ }
+
+ .mobilenav-active{
+   transform: translateX(0%);
+ }
+}
+
+@media screen and (max-width: 1400px) and (min-width:600px) {
+  .App{
+    overflow-x:hidden;
+  }
+ .mobilenav{
+   display:block;
+   position:relative;
+   z-index:100;
+   background-color:rgb(68, 130, 245);
+   padding:25px;
+ }
+
+ .topnav{
+   display:none;
+ }
+ .mobilemenu{
+   margin-left:220px;
  }
 }
 
