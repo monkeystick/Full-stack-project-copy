@@ -74,7 +74,6 @@ span.psw {
 }
 
 
-
 .experience{
   display:block;
   overflow: visible;
@@ -84,8 +83,9 @@ span.psw {
   width:0%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1500px) {
  .h2-signup{
    padding-left:25px;
  }
+
 }

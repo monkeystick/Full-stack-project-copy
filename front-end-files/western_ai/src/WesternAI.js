@@ -54,21 +54,21 @@ class WesternAI extends React.Component {
 
 </div>
 <div id="ms" class="mobileslide">
-        <a>Home</a>
-        <a>Initiatives</a>
-        <a>Sponsors</a>
-        <a>Get Involved</a>
-        <a>Sign Up</a>
-        <a>Apply Now</a>
+        <a href="/">Home</a>
+        <a href="/initiatives">Initiatives</a>
+        <a href="/sponsors">Sponsors</a>
+        <a href="/getinvolved">Get Involved</a>
+        <a href="/signup">Sign Up</a>
+        <a href="/applynow">Apply Now</a>
       </div>
     <Router>
     <div class="topnav" id="myTopnav">
           <img class="logo" src={logo} width="150" height="100"/>
-          <NavLink to="/apply" activeClassName="active">Apply Now</NavLink>
-          <NavLink exact to="/signup" activeClassName="active">Sign Up</NavLink>
-          <NavLink to="/involved" activeClassName="active">Get Involved</NavLink>
-          <NavLink to="/sponsors" activeClassName="active">Sponsors</NavLink>
-          <NavLink exact to="/initiatives" activeClassName="active">Initiatives</NavLink>
+          <NavLink  to="/apply" activeClassName="active">Apply Now</NavLink>
+          <NavLink  exact to="/signup" activeClassName="active">Sign Up</NavLink>
+          <NavLink  to="/involved" activeClassName="active">Get Involved</NavLink>
+          <NavLink  to="/sponsors" activeClassName="active">Sponsors</NavLink>
+          <NavLink  exact to="/initiatives" activeClassName="active">Initiatives</NavLink>
           <NavLink exact to="/" activeClassName="active">Home</NavLink>
 
           

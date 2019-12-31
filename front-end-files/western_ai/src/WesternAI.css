@@ -16,6 +16,8 @@
 }
 .topnav {
   background-color:rgb(255, 255, 255);
+  position:relative;
+  z-index:10000;
   overflow: hidden;
 }
 
@@ -140,6 +142,13 @@ margin:0;
 }
 a{
   margin:30px;
+  color:white;
+  text-decoration: none;
+}
+
+.mobileslide a{
+  pointer-events:none;
+  cursor: default;
 }
 .mobileslide{
   position:absolute;
@@ -196,9 +205,17 @@ a{
  .mobilenav-active{
    transform: translateX(0%);
  }
+ .mobileslide a{
+  pointer-events:auto;
+  cursor: default;
+}
 }
 
 @media screen and (max-width: 1400px) and (min-width:600px) {
+  .mobileslide a{
+    pointer-events:auto;
+    cursor: default;
+  }
   .App{
     overflow-x:hidden;
   }
