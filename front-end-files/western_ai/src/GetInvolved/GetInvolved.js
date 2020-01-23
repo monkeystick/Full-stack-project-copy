@@ -1,9 +1,9 @@
 import React from "react";
 import nl2br from 'react-newline-to-break';
-import './Get Involved.css';
+import './GetInvolved.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styled from 'styled-components'
-import pdf from './components/sponsPackage'
+
 
 
 class Involved extends React.Component{ 
