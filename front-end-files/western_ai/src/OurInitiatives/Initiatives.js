@@ -6,6 +6,7 @@ class Initiatives extends React.Component {
   render() {
     return (
       <div>
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"></link>
         <div class="container1">
           <div class="box1">
             <h1>Our Initiatives</h1>

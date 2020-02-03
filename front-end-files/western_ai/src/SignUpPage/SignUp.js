@@ -6,7 +6,9 @@ import './SignUp.css';
 class SignUp extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {email: '',name: '',program: '',year: '',familarity: ''};
+    this.state = {
+      email: '',name: '',program: '',year: '',familarity: ''};
+    
 
     this.handleEmail = this.handleEmail.bind(this);
     this.handleName = this.handleName.bind(this);
@@ -43,7 +45,7 @@ class SignUp extends React.Component {
   }
   render(){
   return (
-    <div className="SignUp">
+    <div class="SignUp">
     <Form onSubmit = {this.handleSubmit}>
   <div class="container">
     <div class = "SignUpTitle">

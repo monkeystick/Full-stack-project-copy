@@ -172,6 +172,9 @@ a{
   margin-left:70px;
   padding:0px;
   right:10px;
+  padding: 0;
+  border: none;
+  background: none; 
   
 }
 
@@ -181,6 +184,8 @@ a{
   height: 5px;
   margin: 7px 0;
 }
+
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -211,7 +216,14 @@ a{
 }
 }
 
-@media screen and (max-width: 1400px) and (min-width:600px) {
+@media screen and (max-width: 1400px){
+  .topnav a{
+  padding: 25px 15px;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) and (min-width:600px) {
   .mobileslide a{
     pointer-events:auto;
     cursor: default;
