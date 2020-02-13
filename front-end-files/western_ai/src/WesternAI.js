@@ -57,7 +57,7 @@ class WesternAI extends React.Component {
         <a href="/">Home</a>
         <a href="/initiatives">Initiatives</a>
         <a href="/sponsors">Sponsors</a>
-        <a href="/getinvolved">Get Involved</a>
+        <a href="/involved">Get Involved</a>
         <a href="/signup">Sign Up</a>
         <a href="/applynow">Apply Now</a>
       </div>
@@ -86,7 +86,7 @@ class WesternAI extends React.Component {
           <Route path='/initiatives' component={Initiatives}/>
           <Route path='/sponsors' component={Sponsors}/>
           <Route path='/apply' component={Apply}/>
-          <Route path='/involved' component={Involved}/>
+          <Route path='/involved' component={Involve}/>
       </Switch>
 
       </CSSTransition>

@@ -83,12 +83,14 @@
   font-style: normal;
   font-weight: 600;
   letter-spacing: normal;
-  line-height: 48px;
+  line-height: 80px;
   white-space: pre-wrap;
+  height:100px;
 }
 
-.h4-homepage{
 
+.h2-homepage{
+ 
 }
 .containerI{
   font-weight: 500;
