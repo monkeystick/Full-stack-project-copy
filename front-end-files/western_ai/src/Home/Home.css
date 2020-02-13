@@ -92,7 +92,22 @@
 .h2-homepage{
  
 }
+.containerI{
+  font-weight: 500;
+  padding-left: 22vw;
+  padding-right: 22vw;
+  padding-bottom: 10vw;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8em;
+  background-color: cornflowerblue;
+  color: white;
+ 
+}
+.box2H{
+  color: white; 
 
+}
 .h7-homepage{
   color: rgb(74,74,74);
   font-family: sofia-pro, sans-serif;
@@ -129,6 +144,14 @@ p2{
 .name{
   padding:45px;
 }
+.logoF{
+  
+  position: relative;
+ 
+  left: 25%;
+  
+} 
+
 
 @media screen and (max-width: 600px) {
   .h1-homepage-title{
@@ -145,4 +168,56 @@ p2{
     padding-left:0px;
     padding-right:15px;
   }
+ 
 }
+.OurInititives{
+   background-color: cornflowerblue;
+   color: white;
+}
+.box2H{
+  color: white;
+}
+
+table, td{
+  
+  padding-top: 5px;
+}
+table, th{
+  color: white; 
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.Initi{
+  width: 50%;
+}
+.InitiH{
+ 
+  width: 60%;
+}
+.b{
+  background-color: #6380e2;
+}
+.last{
+  color: white; 
+  padding-bottom: 40px;
+}
+.I1{
+  padding-top:40px;
+  font-size:50px;
+  padding-bottom:60px;
+  color: white; 
+}
+.I2{
+  color: white; 
+  padding-left: 70px;
+  padding-top: 40px;
+ 
+}
+.W{
+  color: white; 
+}
+.h2-sponsors{
+  margin-top: 5%;
+  margin-left: 9%;
+}
+

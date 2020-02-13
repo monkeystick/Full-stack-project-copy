@@ -3,6 +3,7 @@ import React from 'react';
 
 //style
 import '../Assets/css/sponsorStyle.css'
+import Image from 'react-bootstrap/Image'
 
 //components
 
@@ -23,12 +24,14 @@ class Sponsors extends React.Component {
     </div>
     
     
-    <div className = "logos">
+    <div className = "logos">'
+    '
     <img src = {logo1} alt= "Digital Echidna"/>
     <img src = {logo3} alt= "wrnch"/>
     <img src = {logo2} alt= "Tech Alliance "/>
-    <Footer/>
-    </div>
+ 
+      <Footer/>
+      </div>
     </div>
   );
 }

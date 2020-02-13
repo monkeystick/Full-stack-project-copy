@@ -1,8 +1,12 @@
 import React from "react";
-import nl2br from 'react-newline-to-break';
 import './GetInvolved.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styled from 'styled-components'
+import{Row,Col} from 'react-bootstrap';
+import SignUp from '../SignUpPage/SignUp';
+import { Button} from 'react-bootstrap';
+import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+
+
 
 
 
