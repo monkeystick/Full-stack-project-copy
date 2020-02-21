@@ -55,16 +55,19 @@ class SignUp extends React.Component {
       <Col>
     <h5 class="h5-signup">Enter Your Email Address</h5>
     <input type="email" placeholder="Email Address" email={this.state.email} onChange={this.handleEmail} required/>
+    </div>
       </Col>
       <Col>
     <h5 class="h5-signup">Enter Your Full Name</h5 >
     <input type="text" placeholder="Full Name" name={this.state.name} onChange={this.handleName} required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
+    </div>
       </Col>
     
     
       <Col>
     <h5 class="h5-signup">Enter Your Program</h5 >
     <input type="text" placeholder="Program" program ={this.state.program} onChange={this.handleProgram}  required pattern="^[a-zA-Z][a-zA-Z\s]*$"/>
+    </div>
     </Col>
     <Col>
     <h5 class="h5-signup">Enter Your Year</h5 >
@@ -76,6 +79,7 @@ class SignUp extends React.Component {
         <option value="Third Year">Third Year</option>  
         <option value="Fourth Year">Fourth Year</option>
       </select>
+      </div>
       </div>
       </Col>
     
@@ -94,6 +98,7 @@ class SignUp extends React.Component {
       <div>
         <input type="text" placeholder = "Other"/>
       </div>
+      </div>
       </Col>
       <Col>
       <h5 class="h5-signup">Familiarity With AI</h5 >
@@ -105,6 +110,7 @@ class SignUp extends React.Component {
         <option value = "Some Experience with AI">Some Experience with AI</option>  
         <option value = "Well Experienced with AI">Well Experienced with AI</option>
       </select>
+      </div>
       </div>
       </Col>
     

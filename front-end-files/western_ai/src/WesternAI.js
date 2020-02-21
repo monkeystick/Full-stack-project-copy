@@ -40,6 +40,7 @@ class WesternAI extends React.Component {
   
   render(){
   return (
+    
     <div className="App">
       <div class="mobilenav">
         <h4 href="/" class="h4-mobile">Western AI</h4>
