@@ -15,6 +15,7 @@ import {
 import logo from './Components/images/WLogo.png';
 import {Nav,Navbar,NavDropdown,Dropdown,DropdownButton,Row,Col} from 'react-bootstrap'
 import Involved from '../src/GetInvolved/GetInvolved';
+import Portfolio from './Portfolio/Portfolio';
 class WesternAI extends React.Component {
   constructor(props) {
     super(props);
@@ -59,6 +60,7 @@ class WesternAI extends React.Component {
         <a href="/initiatives">Initiatives</a>
         <a href="/sponsors">Sponsors</a>
         <a href="/involved">Get Involved</a>
+        <a href="/portfolio">Portfolio</a>
         <a href="/signup">Sign Up</a>
         <a href="/applynow">Apply Now</a>
       </div>
@@ -68,6 +70,7 @@ class WesternAI extends React.Component {
           <NavLink  to="/apply" activeClassName="active">Apply Now</NavLink>
           <NavLink  exact to="/signup" activeClassName="active">Sign Up</NavLink>
           <NavLink  to="/involved" activeClassName="active">Get Involved</NavLink>
+          <NavLink  to="/portfolio" activeClassName="active">Portfolio</NavLink>
           <NavLink  to="/sponsors" activeClassName="active">Sponsors</NavLink>
           <NavLink  exact to="/initiatives" activeClassName="active">Initiatives</NavLink>
           <NavLink exact to="/" activeClassName="active">Home</NavLink>
@@ -88,6 +91,7 @@ class WesternAI extends React.Component {
           <Route path='/sponsors' component={Sponsors}/>
           <Route path='/apply' component={Apply}/>
           <Route path='/involved' component={Involve}/>
+          <Route path='/portfolio' component={Portfolio}/>
       </Switch>
 
       </CSSTransition>
