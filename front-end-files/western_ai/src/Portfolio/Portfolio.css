@@ -1,20 +1,61 @@
-h1{
-    font-family:Sofia-pro, sans-serif;
-    font-size: 7em;
-    color: #4A4A4A;
-    text-align: center;
-    white-space: pre-wrap;
-  }
-  h3{
-    font-family: Sofia-pro, sans-serif;
-    font-size:15px;
-    color:#6381E3;
-    text-align: center;
-    white-space: pre-wrap;
-  }
-  p{
-    font-family:Sofia-pro, sans-serif;
-    font-size: 18px;
-    color: #222222;
-  }
+.port-header{
+  position: absolute;
+  right: 36%;
+  font-size:12.5vh;
+  font-family: 'Lato', sans-serif;
+  top: 17%;
+}
+.subheading1{
+  position: relative;
+  left:2vh;
+  font-size:2vh;
+  font-family: 'Lato', sans-serif;
+  top: 10%;
+  text-align:center;
+  color:#6381e3;
+}
+
+.col-6{
+  position:absolute;
+  left:25.5%;
+  top:35%;
+}
+
+.lightbox-picture{
+  position:absolute;
+  width:65vh;
+  height:70vh;
+  left: 15vh;
+  top:35vh;
+
+}
+
+
+.announcement{
+  text-align:left;
+  position:absolute;
+  left:65%;
+  top:50vh;
   
+}
+
+@media screen and (max-width: 600px) {
+  .port-header{
+    font-size:10vh;
+    right:-1%;
+    top:5vh;
+    position:relative;
+  }
+
+  .subheading{
+    position:relative;
+    width:150%;
+    left:-6vh;
+  }
+
+  .lightbox-picture{
+    position:relative;
+  }
+
+  
+}

@@ -43,6 +43,7 @@ class WesternAI extends React.Component {
   return (
     
     <div className="App">
+      <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"></link>
       <div class="mobilenav">
         <h4 href="/" class="h4-mobile">Western AI</h4>
        
@@ -66,7 +67,7 @@ class WesternAI extends React.Component {
       </div>
     <Router>
     <div class="topnav" id="myTopnav">
-          <img class="logo" src={logo} width="150" height="100"/>
+          <img class="logo" src={logo} width="100" height="90"/>
           <NavLink  to="/apply" activeClassName="active">Apply Now</NavLink>
           <NavLink  exact to="/signup" activeClassName="active">Sign Up</NavLink>
           <NavLink  to="/involved" activeClassName="active">Get Involved</NavLink>
