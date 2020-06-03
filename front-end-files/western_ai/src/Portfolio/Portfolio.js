@@ -13,10 +13,11 @@ class Portfolio extends React.Component{
         return(
         <div class = "body"> 
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"></link>
-            <div class= "Header">
-              <h1 class="port-header"><b>Portfolio</b></h1>
-            </div>
-            <div class="col-6">
+              <div class="portfolio-title">
+              <h1 class="header-port"><b>Portfolio</b></h1>
+              </div>
+            
+            <div class="caption">
                 <h3 class="subheading1">
                   <b>EMERGING TRENDS REPORT BY WESTERN AI & AI LIGHTBOX<br/>
                   (CARLEE OLSEN, SARAH WHITTAKER, JENNIFER QU)</b>
