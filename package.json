@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-project",
+  "version": "1.0.0",
+  "description": "We will be creating the Western AI club website from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malmasr7/Full-stack-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malmasr7/Full-stack-project/issues"
+  },
+  "homepage": "https://github.com/malmasr7/Full-stack-project#readme"
+}
