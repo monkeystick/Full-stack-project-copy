@@ -1,4 +1,7 @@
 
+.homepage{
+  overflow:hidden;
+}
 .parallax{
   background-image: url(https://utz.org/wp-content/uploads/2018/09/franki-chamaki-682112-unsplash-e1537538181427-1200x628.jpg);
   background-attachment: fixed;
@@ -89,9 +92,7 @@
 }
 
 
-.h2-homepage{
- 
-}
+
 .containerI{
   font-weight: 500;
   padding-left: 22vw;

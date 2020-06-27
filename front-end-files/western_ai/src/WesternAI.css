@@ -24,18 +24,24 @@
 .topnav a {
   float: right;
   display: block;
-  color: rgb(17, 86, 212);
+  color: black;
+  padding:3vh 1vh;
   text-align: right;
-  padding: 25px 30px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.7vh;
+  margin-top:3vh;
+  margin-left:2vh;
+  opacity:0.5;
+  transition-property: opacity;
+  transition: all 0.2s linear 0.2s;
+  overflow:hidden;
 }
 
 .logo{
   position:absolute;
   float:left;
   display:block;
-  left:5%;
+  left:2%;
   z-index:5;
 }
 /* Navbar container */
@@ -48,11 +54,12 @@
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 1vh;
   color: white;
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
 }
 
 
@@ -62,11 +69,10 @@
   display:none;
 }
 .topnav a.active {
-  background-color:rgb(68, 130, 245);
-  color: white;
+  opacity:1;
 }
 .topnav :hover{
-  color:black;
+  opacity:1;
 }
 .topnav .icon {
   display: none;
@@ -141,7 +147,7 @@ margin:0;
   
 }
 a{
-  margin:30px;
+  margin:10px;
   color:white;
   text-decoration: none;
 }

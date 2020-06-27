@@ -19,7 +19,7 @@ class Home extends React.Component {
     <div class="homepage">
     <div class = "name">
 <h1 class="h1-homepage-title">Western AI</h1>
-<p> We are Western's on-campus undergraduate AI community. Our mission is to educate students in important AI topics, centralize and develop AI talent, and launch AI-enables careers in fields of interest.</p>
+<p> We are Westerns on-campus undergraduate AI community. Our mission is to educate students in important AI topics, centralize and develop AI talent, and launch AI-enables careers in fields of interest.</p>
     </div>
 <div class = "parallax"> </div>
 <div class ="flex-container">
